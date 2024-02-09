@@ -28,7 +28,33 @@ pip install torch pandas transformers scikit-learn joblib PyMuPDF
 
 After cloning the repository and installing the required dependencies, you may need to make modifications to the file paths.
 
-### Executing program
+## Executing the Program
 
-- How to run the program
-- Step-by-step bullets
+This project involves three main steps: training the model, testing the model, and prioritizing files to printer based on the assigned priority. Follow these steps in order to ensure the system functions correctly:
+
+### Step 1: Training the Model
+
+Begin by running the training script, which will train the machine learning model on your dataset.
+
+```bash
+python train.py
+
+Once the model is trained, proceed to test its performance with the testing script.
+
+```bash
+python test+.py
+
+After testing, run the prioritization script to organize your files based on the priority assigned by the model.
+
+```bash
+python priority+.py
+
+## Contributors
+
+This project exists thanks to all the people who contribute. A big thank you to:
+
+- **D Ankith** - (https://github.com/ankithdadda)
+- **Poornachandra A N** - (https://github.com/Heisenberg208)
+- **Sri Vishnu VS** - (https://github.com/srivishnuvs)
+- **Yashwanth M** - (https://github.com/yashwanthm998)
+
