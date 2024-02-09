@@ -2,59 +2,52 @@
 
 ## Description
 
-In today's digital age, the management of PDF documents is crucial for businesses and organizations across various sectors. A streamlined workflow is essential to handle the influx of information effectively. This introduction provides an overview of a systematic approach to managing PDF documents, encompassing data preprocessing, categorization, priority scheduling, and printing. By employing these strategies, organizations can optimize their document management processes, ensure timely handling of critical information, and enhance overall productivity. Let's delve into the key components of this workflow.
+In the fast-paced digital world, efficient management of PDF documents is a cornerstone for businesses and organizations in various industries. Our project introduces a systematic workflow to manage PDF documents effectively, integrating data preprocessing, categorization, priority scheduling, and printing. These strategies are designed to streamline document management, prioritize critical information, and boost productivity. Dive into our workflow and explore the key components that make it work.
 
 ## Getting Started
 
-# Dependencies
+### Dependencies
 
-This project requires the following Python modules:
+Ensure you have the following Python modules installed:
 
-- `torch` - An open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
-- `pandas` - A fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool.
-- `transformers` - A library that provides general-purpose architectures for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over thousands of pretrained models.
-- `sklearn` (scikit-learn) - A simple and efficient tool for predictive data analysis.
-- `os` - A standard Python module that provides a way to use operating system-dependent functionality.
-- `joblib` - A set of tools to provide lightweight pipelining in Python, particularly suited for jobs involving large datasets.
-- `fitz` - A Python library to create and manipulate PDF files (part of PyMuPDF).
-- `shutil` - A Python module for high-level file operations, including copying and archiving.
+- `torch` - A machine learning library for high performance with tensors and dynamic neural networks.
+- `pandas` - Essential for data manipulation and analysis.
+- `transformers` - Offers numerous pre-trained models for Natural Language Understanding (NLU) and Generation (NLG).
+- `sklearn` (scikit-learn) - Provides tools for data mining and analysis.
+- `os` - Interfaces with the operating system and is part of the Python Standard Library.
+- `joblib` - Useful for lightweight pipelining and working with large datasets.
+- `fitz` (PyMuPDF) - Enables creation and manipulation of PDF files.
+- `shutil` - Facilitates high-level file operations, such as copying and archiving.
 
-To install the required modules (except for the standard library modules `os` and `shutil` which are included with Python), you can run the following command:
+Install the necessary modules with the following command (note that `os` and `shutil` are included with Python and do not need to be installed):
 
-```bash
-pip install torch pandas transformers scikit-learn joblib PyMuPDF```
+``` pip install torch pandas transformers scikit-learn joblib PyMuPDF ```
 
 ### Installing
+Clone the repository and install the dependencies as mentioned above. You may need to adjust file paths in the configuration files to match your local setup.
 
-After cloning the repository and installing the required dependencies, you may need to make modifications to the file paths.
+### Executing the Program
+Follow these steps to run the project:
 
-## Executing the Program
+Step 1: Training the Model
+Train the machine learning model with your dataset by executing:
 
-This project involves three main steps: training the model, testing the model, and prioritizing files to printer based on the assigned priority. Follow these steps in order to ensure the system functions correctly:
+``` python train.py ```
 
-### Step 1: Training the Model
+Step 2: Testing the Model
+Evaluate the model's performance using the testing script:
 
-Begin by running the training script, which will train the machine learning model on your dataset.
+``` python test.py ```
 
-```bash
-python train.py
+Step 3: Prioritizing Files
+Finally, prioritize the files for printing based on the model's assigned priority:
 
-Once the model is trained, proceed to test its performance with the testing script.
+``` python prioritize.py ```
 
-```bash
-python test+.py
+### Contributors
+A heartfelt thanks to all the contributors who have made this project possible:
 
-After testing, run the prioritization script to organize your files based on the priority assigned by the model.
-
-```bash
-python priority+.py
-
-## Contributors
-
-This project exists thanks to all the people who contribute. A big thank you to:
-
-- **D Ankith** - (https://github.com/ankithdadda)
-- **Poornachandra A N** - (https://github.com/Heisenberg208)
-- **Sri Vishnu VS** - (https://github.com/srivishnuvs)
-- **Yashwanth M** - (https://github.com/yashwanthm998)
-
+D Ankith - https://github.com/ankithdadda
+Poornachandra A N - https://github.com/Heisenberg208
+Sri Vishnu VS - https://github.com/srivishnuvs
+Yashwanth M - https://github.com/yashwanthm998
