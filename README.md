@@ -23,6 +23,7 @@ To install the required modules (except for the standard library modules `os` an
 
 ```bash
 pip install torch pandas transformers scikit-learn joblib PyMuPDF
+'''bash
 
 ### Installing
 
