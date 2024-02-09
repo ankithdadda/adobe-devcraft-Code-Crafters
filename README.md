@@ -21,9 +21,7 @@ This project requires the following Python modules:
 
 To install the required modules (except for the standard library modules `os` and `shutil` which are included with Python), you can run the following command:
 
-```bash
-pip install torch pandas transformers scikit-learn joblib PyMuPDF
-```bash
+```bash pip install torch pandas transformers scikit-learn joblib PyMuPDF
 
 ### Installing
 
