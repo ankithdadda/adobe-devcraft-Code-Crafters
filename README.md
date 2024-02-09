@@ -37,12 +37,17 @@ Train the machine learning model with your dataset by executing:
 Step 2: Testing the Model
 Evaluate the model's performance using the testing script:
 
-``` python test.py ```
+``` python test+.py ```
 
 Step 3: Prioritizing Files
 Finally, prioritize the files for printing based on the model's assigned priority:
 
-``` python prioritize.py ```
+``` python prioritize+.py ```
+
+Step 4: Implementing it on a dummy printer
+After prioritizing the files, the next step is to simulate the printing process on a dummy printer. This step is crucial for testing the end-to-end workflow without using actual printer resources.
+
+``` python dummy printer.py ```
 
 ### Contributors
 A heartfelt thanks to all the contributors who have made this project possible:
