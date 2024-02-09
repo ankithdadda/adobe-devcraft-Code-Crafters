@@ -47,7 +47,7 @@ Finally, prioritize the files for printing based on the model's assigned priorit
 ### Contributors
 A heartfelt thanks to all the contributors who have made this project possible:
 
-D Ankith - https://github.com/ankithdadda
-Poornachandra A N - https://github.com/Heisenberg208
-Sri Vishnu VS - https://github.com/srivishnuvs
-Yashwanth M - https://github.com/yashwanthm998
+- D Ankith - https://github.com/ankithdadda
+- Poornachandra A N - https://github.com/Heisenberg208
+- Sri Vishnu VS - https://github.com/srivishnuvs
+- Yashwanth M - https://github.com/yashwanthm998
