@@ -6,9 +6,7 @@ In today's digital age, the management of PDF documents is crucial for businesse
 
 ## Getting Started
 
-### Dependencies
-
-## Dependencies
+# Dependencies
 
 This project requires the following Python modules:
 
